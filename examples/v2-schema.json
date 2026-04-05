@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/api/users": {
+      "get": { "summary": "List users", "responses": { "200": { "description": "User list" } } }
+    },
+    "/api/users/{id}": {
+      "get": { "summary": "Get user by ID", "responses": { "200": { "description": "User detail" } } }
+    }
+  },
+  "components": {
+    "schemas": {
+      "User": {
+        "type": "object",
+        "required": ["id", "email", "role"],
+        "properties": {
+          "id": { "type": "string", "description": "Changed from integer to string (UUID)" },
+          "email": { "type": "string" },
+          "role": { "type": "string", "enum": ["admin", "user"] }
+        }
+      }
+    }
+  }
+}
