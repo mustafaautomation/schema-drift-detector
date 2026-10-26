@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/mustafaautomation/schema-drift-detector/actions/workflows/ci.yml/badge.svg)](https://github.com/mustafaautomation/schema-drift-detector/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 Detect breaking changes between API schema versions. Compares JSON/OpenAPI schemas, classifies diffs as breaking/non-breaking/warning, and blocks deployment on incompatible changes.
 
